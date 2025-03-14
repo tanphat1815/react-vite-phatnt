@@ -33,3 +33,22 @@ Cách chạy tại chế độ production:
 3. Update file .env.production (nếu cần thiết)
 4. Build dự án: npm run build
 5. Chạy dự án: npm run preview
+
+Chay o moi truong dev
+npm run dev: 
+tu src -> dung vite (react compiler) dich sang -> html,css,js (luu ben trong memory may tinh) 
+
+Chay o production:
+npm run build -> thay vi dich code thi no se build ra cac file html,css,js luon ma khong can luu vao memory
+sau do npm run preview
+SPA la chi chay 1 file index.html
+
+
+======================
+
+CSR: ngay lan dau tien gui request la da co tat ca data roi.
+
+RSR: moi lan redirect trang la moi lan goi len server de lay data hien thi
+
+======================
+
